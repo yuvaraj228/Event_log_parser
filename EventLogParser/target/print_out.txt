@@ -1,0 +1,14 @@
+Json converted
+   year  season  countries_with_medals                  ins_upd_ts
+0  2006  Winter                     36  2021-04-04 14:54:01.336148
+1  2008  Summer                    105  2021-04-04 14:54:01.336148
+2  2010  Winter                     37  2021-04-04 14:54:01.336148
+3  2012  Summer                    101  2021-04-04 14:54:01.336148
+4  2014  Winter                     35  2021-04-04 14:54:01.336148
+5  2016  Summer                     98  2021-04-04 14:54:01.336148
+Latency in seconds - 51192
+{'MessageId': 'd1eb1afe-d79d-555d-b5cf-421ada13b8db', 'ResponseMetadata': {'RequestId': 'cfeadea9-01ec-5a44-b06e-864d0c62b7c2', 'HTTPStatusCode': 200, 'HTTPHeaders': {'x-amzn-requestid': 'cfeadea9-01ec-5a44-b06e-864d0c62b7c2', 'content-type': 'text/xml', 'content-length': '294', 'date': 'Sun, 04 Apr 2021 18:54:06 GMT'}, 'RetryAttempts': 0}}
+Latency exceeded by 14.22 hrs. Last record insert/update time is at 2021-04-04 00:40:53.647121. Please verify
+
+Output of assignment_poc:
+[(2006, 'Winter', 36, '2021-04-04 00:40:53.647121'), (2008, 'Summer', 105, '2021-04-04 00:40:53.647121'), (2010, 'Winter', 37, '2021-04-04 00:40:53.647121'), (2012, 'Summer', 101, '2021-04-04 00:40:53.647121'), (2014, 'Winter', 35, '2021-04-04 00:40:53.647121'), (2016, 'Summer', 98, '2021-04-04 00:40:53.647121')]
